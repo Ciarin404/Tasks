@@ -1,0 +1,7 @@
+D:\Epam\Tasks\Module2_1\Module2_1\bin\Debug\Module2_1.exe.config
+D:\Epam\Tasks\Module2_1\Module2_1\bin\Debug\Module2_1.exe
+D:\Epam\Tasks\Module2_1\Module2_1\bin\Debug\Module2_1.pdb
+D:\Epam\Tasks\Module2_1\Module2_1\obj\Debug\Module2_1.csprojAssemblyReference.cache
+D:\Epam\Tasks\Module2_1\Module2_1\obj\Debug\Module2_1.csproj.CoreCompileInputs.cache
+D:\Epam\Tasks\Module2_1\Module2_1\obj\Debug\Module2_1.exe
+D:\Epam\Tasks\Module2_1\Module2_1\obj\Debug\Module2_1.pdb
