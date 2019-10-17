@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\Module2_4\Module2_4\bin\Debug\Module2_4.exe.config
+C:\Users\Admin\source\repos\Module2_4\Module2_4\bin\Debug\Module2_4.exe
+C:\Users\Admin\source\repos\Module2_4\Module2_4\bin\Debug\Module2_4.pdb
+C:\Users\Admin\source\repos\Module2_4\Module2_4\obj\Debug\Module2_4.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Module2_4\Module2_4\obj\Debug\Module2_4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Module2_4\Module2_4\obj\Debug\Module2_4.exe
+C:\Users\Admin\source\repos\Module2_4\Module2_4\obj\Debug\Module2_4.pdb
+D:\Epam\Module2_4\Module2_4\bin\Debug\Module2_4.exe.config
+D:\Epam\Module2_4\Module2_4\bin\Debug\Module2_4.exe
+D:\Epam\Module2_4\Module2_4\bin\Debug\Module2_4.pdb
+D:\Epam\Module2_4\Module2_4\obj\Debug\Module2_4.csprojAssemblyReference.cache
+D:\Epam\Module2_4\Module2_4\obj\Debug\Module2_4.csproj.CoreCompileInputs.cache
+D:\Epam\Module2_4\Module2_4\obj\Debug\Module2_4.exe
+D:\Epam\Module2_4\Module2_4\obj\Debug\Module2_4.pdb
