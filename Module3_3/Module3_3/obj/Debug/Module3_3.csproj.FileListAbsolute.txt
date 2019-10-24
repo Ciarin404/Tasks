@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\Module3_3\Module3_3\bin\Debug\Module3_3.exe.config
+C:\Users\Admin\source\repos\Module3_3\Module3_3\bin\Debug\Module3_3.exe
+C:\Users\Admin\source\repos\Module3_3\Module3_3\bin\Debug\Module3_3.pdb
+C:\Users\Admin\source\repos\Module3_3\Module3_3\obj\Debug\Module3_3.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Module3_3\Module3_3\obj\Debug\Module3_3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Module3_3\Module3_3\obj\Debug\Module3_3.exe
+C:\Users\Admin\source\repos\Module3_3\Module3_3\obj\Debug\Module3_3.pdb
