@@ -30,9 +30,9 @@ namespace Module3_7
 
                 for (int i = 0; i < numberArray.Length - 1; i++)
                 {
-                    if (numberArray[i] > numberArray[i + 1])
+                    if (numberArray[i] < numberArray[i + 1])
                     {
-                        Console.Write($"{numberArray[i]} ");
+                        Console.Write($"{numberArray[i + 1]} ");
                     }
                 }
             }

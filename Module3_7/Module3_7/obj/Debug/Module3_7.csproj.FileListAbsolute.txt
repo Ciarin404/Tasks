@@ -5,3 +5,10 @@ C:\Users\Admin\source\repos\Module3_7\Module3_7\obj\Debug\Module3_7.csprojAssemb
 C:\Users\Admin\source\repos\Module3_7\Module3_7\obj\Debug\Module3_7.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\Module3_7\Module3_7\obj\Debug\Module3_7.exe
 C:\Users\Admin\source\repos\Module3_7\Module3_7\obj\Debug\Module3_7.pdb
+D:\Epam\Tasks\Module3_7\Module3_7\bin\Debug\Module3_7.exe.config
+D:\Epam\Tasks\Module3_7\Module3_7\bin\Debug\Module3_7.exe
+D:\Epam\Tasks\Module3_7\Module3_7\bin\Debug\Module3_7.pdb
+D:\Epam\Tasks\Module3_7\Module3_7\obj\Debug\Module3_7.csprojAssemblyReference.cache
+D:\Epam\Tasks\Module3_7\Module3_7\obj\Debug\Module3_7.csproj.CoreCompileInputs.cache
+D:\Epam\Tasks\Module3_7\Module3_7\obj\Debug\Module3_7.exe
+D:\Epam\Tasks\Module3_7\Module3_7\obj\Debug\Module3_7.pdb
