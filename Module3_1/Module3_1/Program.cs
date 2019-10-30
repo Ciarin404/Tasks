@@ -11,45 +11,45 @@ namespace Module3_1
         static void Main(string[] args)
         {
             Console.Write("Enter first number:");
-            var firstNumber = Console.ReadLine();
+            string firstString = Console.ReadLine();
             Console.Write("Enter second number:");
-            var secondNumber = Console.ReadLine();
-            bool isFirstNumRight = int.TryParse(firstNumber, out int firstNum);
-            bool isSecondNumRight = int.TryParse(secondNumber, out int secondNum);
-            int productOfNumbers = 0;
+            string secondString = Console.ReadLine();
+            bool isFirstNumRight = int.TryParse(firstString, out int firstNumber);
+            bool isSecondNumRight = int.TryParse(secondString, out int secondNumber);
 
             if(isFirstNumRight && isSecondNumRight)
             {
-                if(firstNum < 0 && secondNum < 0)
+                int productOfNumbers = 0;
+                if (firstNumber < 0 && secondNumber < 0)
                 {
-                    firstNum = -firstNum;
-                    for (int i = 0; i < firstNum; i++)
+                    firstNumber = -firstNumber;
+                    for (int i = 0; i < firstNumber; i++)
                     {
-                        productOfNumbers += -secondNum;
+                        productOfNumbers += -secondNumber;
                     }
                     Console.WriteLine($"Product = {productOfNumbers}");
                 }
-                else if(firstNum < 0)
+                else if(firstNumber < 0)
                 {
-                    for (int i = 0; i < secondNum; i++)
+                    for (int i = 0; i < secondNumber; i++)
                     {
-                        productOfNumbers += firstNum;
+                        productOfNumbers += firstNumber;
                     }
                     Console.WriteLine($"Product = {productOfNumbers}");
                 }
-                else if(secondNum < 0)
+                else if(secondNumber < 0)
                 {
-                    for (int i = 0; i < firstNum; i++)
+                    for (int i = 0; i < firstNumber; i++)
                     {
-                        productOfNumbers += secondNum;
+                        productOfNumbers += secondNumber;
                     }
                     Console.WriteLine($"Product = {productOfNumbers}");
                 }
                 else
                 {
-                    for (int i = 0; i < firstNum; i++)
+                    for (int i = 0; i < firstNumber; i++)
                     {
-                        productOfNumbers += secondNum;
+                        productOfNumbers += secondNumber;
                     }
                     Console.WriteLine($"Product = {productOfNumbers}");
                 }
