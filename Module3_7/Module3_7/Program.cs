@@ -13,10 +13,10 @@ namespace Module3_7
         {
             var rand = new Random((int)Stopwatch.GetTimestamp());
             Console.Write("Enter size of array:");
-            var stringSize = Console.ReadLine();
+            string stringSize = Console.ReadLine();
             bool isNumber = int.TryParse(stringSize, out int sizeArray);
 
-            if (isNumber)
+            if (isNumber && sizeArray > 0)
             {
                 var numberArray = new int[sizeArray];
 
@@ -38,7 +38,7 @@ namespace Module3_7
             }
             else
             {
-                Console.WriteLine("Entered string is not a number");
+                Console.WriteLine("Entered string is not a number or negative.");
             }
 
             Console.ReadKey();

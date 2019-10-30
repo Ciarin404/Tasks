@@ -11,7 +11,7 @@ namespace Module3_2
         static void Main(string[] args)
         {
             Console.Write("Enter Number:");
-            var enteredNumber = Console.ReadLine();
+            string enteredNumber = Console.ReadLine();
             bool numRight = int.TryParse(enteredNumber, out int numberNum);
             if (numRight)
             {
@@ -23,7 +23,7 @@ namespace Module3_2
                 {
                     for (int i = 0; i < numberNum; i++)
                     {
-                        Console.Write($"{i * 2} ");
+                        Console.Write($"{(i + 1) * 2} ");
                     }
                 }
                 else

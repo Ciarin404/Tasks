@@ -11,13 +11,13 @@ namespace Module3_6
     {
         static void Main(string[] args)
         {
-            var rand = new Random((int)Stopwatch.GetTimestamp());
+            string rand = new Random((int)Stopwatch.GetTimestamp());
             Console.Write("Enter size of Array:");
-            var stringSize = Console.ReadLine();
+            string stringSize = Console.ReadLine();
             bool isNumber = int.TryParse(stringSize, out int sizeArray);
-            var numberArray = new int[sizeArray];
+            int numberArray = new int[sizeArray];
 
-            if (isNumber)
+            if (isNumber && sizeArray > 0)
             {
                 for (int i = 0; i < numberArray.Length; i++)
                 {
@@ -35,7 +35,7 @@ namespace Module3_6
             }
             else
             {
-                Console.WriteLine("Entered string is not a number.");
+                Console.WriteLine("Entered string is not a number or negative.");
             }
 
             Console.ReadKey();

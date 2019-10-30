@@ -11,43 +11,37 @@ namespace Module3_5
         static void Main(string[] args)
         {
             Console.Write("Enter number:");
-            var numberString = Console.ReadLine().Replace('.', ',');
+            string numberString = Console.ReadLine().Replace('.', ',');
             Console.Write("Enter delete numeral:");
-            var numeralString = Console.ReadLine();
+            string numeralString = Console.ReadLine();
             bool isNumber = int.TryParse(numberString, out int numberNum);
             bool isNumeral = int.TryParse(numeralString, out int numeralNum);
             int value, count = 0;
-            string number1 = default;
+            string number1 = numberString;
 
-            if (isNumber && isNumeral)
+            if (isNumber && isNumeral && numeralNum >= 0 && numberNum >= 0)
             {
+                char[] numberArray = numberString.ToCharArray();
 
-                if(numeralNum >= 0)
+                for (int i = 0; i < numberArray.Length; i++)
                 {
-                    if(numberNum >= 0)
+                    value = (int)(numberArray[i] - '0');
+
+                    if (numeralNum == value)
                     {
-                        char[] numberArray = numberString.ToCharArray();
-                        for (int i = 0; i < numberArray.Length; i++)
-                        {
-                            value = (int)(numberArray[i] - '0');
-
-                            if (numeralNum == value)
-                            {
-                                number1 = numberString.Remove(i - count, 1);
-                                numberString = number1;
-                                count += 1;
-                            }
-                        }
-
+                        number1 = numberString.Remove(i - count, 1);
+                        numberString = number1;
+                        count += 1;
                     }
                 }
+
+                Console.WriteLine($"Number without {numeralNum}: {number1}");
             }
             else
             {
                 Console.WriteLine("Entered strings are not numbers");
             }
 
-            Console.WriteLine($"Number without {numeralNum}: {number1}");
             Console.ReadKey();
         }
     }

@@ -11,7 +11,7 @@ namespace Module3_4
         static void Main(string[] args)
         {
             Console.Write("Enter number:");
-            var number = Console.ReadLine().Replace('.', ',');
+            string number = Console.ReadLine().Replace('.', ',');
             bool isNumber = double.TryParse(number, out double numberNum);
             char[] numberArray;
 
@@ -27,8 +27,7 @@ namespace Module3_4
                 }
                 else
                 {
-                    numberNum = -numberNum;
-                    numberArray = number.ToCharArray();
+                    numberArray = number.ToCharArray(1, number.Length - 1);
                     Array.Reverse(numberArray);
                     number = new string(numberArray);
                     numberNum = double.Parse(number);
